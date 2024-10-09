@@ -16,7 +16,7 @@ This is a simple Android learning app designed for children to help them learn a
 
 ### Color Activity
 <img src="colors.png" alt="Color Activity" width="250" height="450">
-### Family Activity
+## Family Activity
 <img src="family.png" alt="Family Activity" width="250" height="450">
 
 ## Installation
