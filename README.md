@@ -12,7 +12,7 @@ This is a simple Android learning app designed for children to help them learn a
 
 ## Screenshots
 ### Main Activity
-<img src="mian.png" alt="Main Activity" width="250" height="450">
+<img src="main.png" alt="Main Activity" width="250" height="450">
 
 ### Color Activity
 <img src="colors.png" alt="Color Activity" width="250" height="450">
