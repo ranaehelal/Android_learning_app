@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige"
+    tools:context=".MainActivity">
+
+    <!-- White Button -->
+    <Button
+        android:id="@+id/whiteButton"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@android:color/white"
+        android:text="White"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/blackButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Black Button -->
+    <Button
+        android:id="@+id/blackButton"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="Black"
+        android:backgroundTint="@android:color/black"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/whiteButton"
+        app:layout_constraintBottom_toTopOf="@+id/blueButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="5dp"/>
+
+    <!-- Blue Button -->
+    <Button
+        android:id="@+id/blueButton"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="Blue"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/blackButton"
+        app:layout_constraintBottom_toTopOf="@+id/redButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="5dp"/>
+
+    <!-- Red Button -->
+    <Button
+        android:id="@+id/redButton"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="Red"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/blueButton"
+        app:layout_constraintBottom_toTopOf="@+id/greenButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="5dp"/>
+
+    <!-- Green Button -->
+    <Button
+        android:id="@+id/greenButton"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="Green"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/redButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
