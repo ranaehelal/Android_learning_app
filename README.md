@@ -47,9 +47,3 @@ For questions or suggestions, feel free to reach out to [ranaesmailhelal@gmail.c
 
 
 
-### Notes:
-1. Replace the placeholder paths for the screenshots with the actual paths where you store your images.
-2. Add any additional information about your app as necessary, including any required permissions or libraries.
-3. Ensure your sound resources are correctly named as per your `playSound()` function calls in the `ColorActivity`.
-
-Feel free to customize this README to better fit your project!
